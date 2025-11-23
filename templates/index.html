@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Trash Scanner</title>
+  </head>
+  <body>
+    <h1>Trash Scanner</h1>
+    <form action="/classify" method="POST">
+        <label for="item_type">What are you throwing away?</label>
+        <select id="item_type" name="item_type">
+            <option value="bottle_plastic">Plastic bottle</option>
+            <option value="can_aluminium">Aluminium can</option>
+            <option value="coffee_cup">Coffee cup</option>
+            <option value="paper">Paper</option>
+            <option value="food">Food scraps</option>
+        </select>
+
+        <br>
+
+        <button type="submit">Which bin?</button>
+    </form>
+    <p>This will be the home page of your app.</p>
+  </body>
+</html>
